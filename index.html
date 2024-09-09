@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link - QR</title>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+    <script defer src="index.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="contenedor">
+        <form action="" id="formulario" class="formulario">
+            <input type="text" id="link" placeholder="Escribe el URL">
+            <button type="submit" class="btn">Generar Código QR</button>
+        </form>
+        <div id="contenedorQR" class="contenedorQR"></div>
+        <button id="descargarQR" class="btn">Descargar Código QR</button>
+    </div>
+</body>
+</html>
